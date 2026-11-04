@@ -9,9 +9,9 @@ import java.util.zip.ZipFile;
  * No game libraries, downloaded code, credentials or installed profile are required.
  */
 public final class VerifyRelease {
-    static final String expectedSha256 = "c9aca00f5b17b033cc8b64ef1fcb189b70fef19c1853303d5ae60ffaf6e6260a";
+    static final String expectedSha256 = "a153cab8aed2f50c5a2f8f75c0750ee590a99d2c79ed4bb197680a5441da26d6";
     static final String expectedMain = "org.schemetools.SchemeSizeGodMod";
-    static final String expectedVersion = "0.5.3";
+    static final String expectedVersion = "0.5.4";
     public static void main(String[] args) throws Exception {
         Path jar = Path.of(args.length == 0 ? "scheme-size-god.jar" : args[0]);
         byte[] bytes = Files.readAllBytes(jar);
