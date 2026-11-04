@@ -10,7 +10,7 @@
 
 Mindustry **V8 Build 160.7**, настольные Windows/Linux. Windows проверен, Linux пока не проверен. Android не поддерживается.
 
-**Тестовая версия 0.5.2.** Полный паритет с Scheme-Size 2.7.79 не подтверждён. Основной сетевой сценарий — мод у встроенного хоста, гости без модов; проверенные действия и ограничения перечислены в отчётах. WAN пока не проверен.
+**Тестовая версия 0.5.3.** Полный паритет с Scheme-Size 2.7.79 не подтверждён. Основной сетевой сценарий — мод у встроенного хоста, гости без модов; проверенные действия и ограничения перечислены в отчётах. WAN пока не проверен.
 
 ## Установка
 
@@ -22,14 +22,14 @@ Mindustry **V8 Build 160.7**, настольные Windows/Linux. Windows про
 
 ## Интерфейс
 
-![Интерфейс 0.5.2](screenshot.png)
+![Интерфейс 0.5.3](screenshot.png)
 
 Юниты → На карте → команда → типы по иконкам → красная кнопка с названием и количеством целей. Можно выбрать несколько типов, рамку или отдельных юнитов. Управляемые игроками юниты исключаются повторно при исполнении. Native смерть может вызвать побочный урон.
 
 ## Исходники и проверки
 
-Это витрина сборок из общей кодовой базы. Исходники: https://github.com/FallAvalon/scheme-size/tree/93cd29192f01598c35b45f50870a901b1a223ca2
+Это витрина сборок из общей кодовой базы. Исходники: https://github.com/FallAvalon/scheme-size/tree/c5c55baee884f03085cfcda7a6c4672b3e63c836
 
-[Матрица реализации](https://github.com/FallAvalon/scheme-size/blob/93cd29192f01598c35b45f50870a901b1a223ca2/reports/02_o279_implementation_matrix.md) · [Проверки 0.5.2](https://github.com/FallAvalon/scheme-size/blob/93cd29192f01598c35b45f50870a901b1a223ca2/reports/23_tag_assignment_fix.md) · [История сетевых проверок](https://github.com/FallAvalon/scheme-size/blob/93cd29192f01598c35b45f50870a901b1a223ca2/reports/16_roster_icon_publication.md).
+[Матрица реализации](https://github.com/FallAvalon/scheme-size/blob/c5c55baee884f03085cfcda7a6c4672b3e63c836/reports/02_o279_implementation_matrix.md) · [Проверки 0.5.3](https://github.com/FallAvalon/scheme-size/blob/c5c55baee884f03085cfcda7a6c4672b3e63c836/reports/24_click_quick_menu.md) · [История сетевых проверок](https://github.com/FallAvalon/scheme-size/blob/c5c55baee884f03085cfcda7a6c4672b3e63c836/reports/16_roster_icon_publication.md).
 
 Исходный коммит и хеш манифеста указаны в source.json; к релизу приложен SHA256SUMS.txt. Это самостоятельная реализация, не официальный выпуск оригинального Scheme-Size.
